@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 // Replace with your GitHub repository URL
-                git branch: 'main', url: 'https://github.com/Shreyanshh-py/Ci-Cd-pipeline-using-jenkin'
+                git branch: 'main', url: 'https://github.com/Shreyanshh-py/Ci-Cd-pipeline-using-jenkins'
             }
         }
         stage('Build Docker Image') {
